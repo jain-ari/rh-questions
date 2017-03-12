@@ -1,0 +1,18 @@
+{
+  "name": "paractical-exercise-part-2",
+  "version": "1.0.0",
+  "description": "Partical Exercise no. 2 for Red Hat position",
+  "main": "server.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp-run": "^1.7.1",
+    "less": "^2.7.2"
+    },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "Arihant Jain",
+  "license": "ISC"
+}
