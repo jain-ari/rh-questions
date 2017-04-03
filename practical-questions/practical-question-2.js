@@ -3,6 +3,8 @@ The values that are being assigned to one and two are being assigned at a timeou
 This is the reason behind the output being 'wrong answer NAN' as one and two remain undefined. 
 To fix this, the cb function can be called at a timeout of more than 1500 (ex 1501). 
 There is an inline test function to check multiple timeouts. 
+The event loop will thus place the function call after both timeouts run out 
+and thus the variables will have proper values assigned to them.
 Please open console to see results. 
 */
 
